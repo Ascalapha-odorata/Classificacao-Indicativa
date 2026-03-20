@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Detalhes do Filme</title>
+  <link rel="stylesheet" href="styles.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+  <link href="https://fonts.googleapis.com/css2?family=Comic+Neue:wght@400;700&display=swap" rel="stylesheet">
+</head>
+<body>
+  <header>
+    <div class="container">
+      <div class="header-content">
+        <h1><i class="fas fa-film"></i> Detalhes do Filme</h1>
+        <div class="nav-buttons">
+          <a href="index.html" class="btn"><i class="fas fa-arrow-left"></i> Voltar para Catálogo</a>
+        </div>
+      </div>
+    </div>
+  </header>
+
+  <main class="container">
+    <div id="detalhes"></div>
+    
+    <div class="votacao-container">
+      <h2><i class="fas fa-vote-yea"></i> Votação da Comunidade</h2>
+      <p>Qual você acha que é a classificação adequada para este filme? 👇</p>
+      
+      <div class="votacao-form">
+        <select id="votoClassificacao">
+          <option value="">Selecione uma classificação</option>
+          <option value="0">Livre - Para todas as idades 👶</option>
+          <option value="10">10 anos - Crianças a partir de 10 anos 🧒</option>
+          <option value="12">12 anos - A partir de 12 anos 👦</option>
+          <option value="14">14 anos - Adolescentes a partir de 14 anos 👨</option>
+          <option value="16">16 anos - Jovens a partir de 16 anos 🧑</option>
+          <option value="18">18 anos - Apenas para adultos 👩</option>
+        </select>
+        <button id="btnVotar" class="btn"><i class="fas fa-check"></i> Votar</button>
+      </div>
+      
+      <div id="resultadoVotos"></div>
+    </div>
+  </main>
+
+  <script src="detalhes.js"></script>
+</body>
+</html>

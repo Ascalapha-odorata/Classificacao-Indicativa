@@ -1,9 +1,6 @@
 --
 -- PostgreSQL database dump
 --
-
-\restrict bEuqm4gDmeUte9wns9002hA4bIODsY03sky3F4YsBRNxRVSg08GRn28ELRw6C9y
-
 -- Dumped from database version 17.6 (Debian 17.6-2.pgdg12+1)
 -- Dumped by pg_dump version 17.7 (Ubuntu 17.7-3.pgdg24.04+1)
 
@@ -25,11 +22,6 @@ SET row_security = off;
 
 CREATE DATABASE titulos_db WITH TEMPLATE = template0 ENCODING = 'UTF8' LOCALE_PROVIDER = libc LOCALE = 'en_US.UTF8';
 
-
-\unrestrict bEuqm4gDmeUte9wns9002hA4bIODsY03sky3F4YsBRNxRVSg08GRn28ELRw6C9y
-\connect titulos_db
-\restrict bEuqm4gDmeUte9wns9002hA4bIODsY03sky3F4YsBRNxRVSg08GRn28ELRw6C9y
-
 SET statement_timeout = 0;
 SET lock_timeout = 0;
 SET idle_in_transaction_session_timeout = 0;
@@ -47,11 +39,6 @@ SET row_security = off;
 --
 
 ALTER DATABASE titulos_db SET "TimeZone" TO 'utc';
-
-
-\unrestrict bEuqm4gDmeUte9wns9002hA4bIODsY03sky3F4YsBRNxRVSg08GRn28ELRw6C9y
-\connect titulos_db
-\restrict bEuqm4gDmeUte9wns9002hA4bIODsY03sky3F4YsBRNxRVSg08GRn28ELRw6C9y
 
 SET statement_timeout = 0;
 SET lock_timeout = 0;
@@ -256,6 +243,4 @@ ALTER TABLE ONLY public.classif_votos
 --
 -- PostgreSQL database dump complete
 --
-
-\unrestrict bEuqm4gDmeUte9wns9002hA4bIODsY03sky3F4YsBRNxRVSg08GRn28ELRw6C9y
 

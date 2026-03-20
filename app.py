@@ -3,6 +3,11 @@ import psycopg2 # lib que faz a conexão com um banco de dados PostgreSQL
 from flask import Flask, jsonify, request
 from flask_cors import CORS # cross origin resource sharing, libera acesso da api
 
+from flask import render_template #
+@app.route('/')
+def index():
+    return render_template('index.html')
+
 #inicializa o app flask
 app = Flask(__name__)
 CORS(app) # habilita o cors em todas as rotas

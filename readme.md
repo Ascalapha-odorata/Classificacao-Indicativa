@@ -54,7 +54,6 @@ Para testar a implementação, acessar: https://filmes-frontend-ifw0.onrender.co
 OBS: indisponível a partir do dia 04/12/2025
 
 Instalação e Uso
-Requisitos: Navegador web moderno com suporte a JavaScript
 
 - Criar uma database PostgreSQL em uma nuvem
 
@@ -73,10 +72,11 @@ Requisitos: Navegador web moderno com suporte a JavaScript
 Favoritos e votos são salvos localmente
 
 API Utilizada
-A aplicação consome dados da API:
-https://filmes-api-dev.onrender.com/api/filmes
+
+A aplicação consome dados da API: filmes-api-dev
 
 Parâmetros da API:
+
 nome: Filtro por nome do filme
 
 classificacao: Filtro por classificação específica
